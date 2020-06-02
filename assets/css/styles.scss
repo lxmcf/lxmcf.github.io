@@ -10,11 +10,14 @@ html {
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--fg-color);
+    background-color: var(--bg-colour);
+    color: var(--fg-colour);
+    min-height: 100%;
+    width: 100%;
 
     h1, h2, h3 {
         font-family: var(--title-font);
+        margin: 16px;
     }
 
     h1 {

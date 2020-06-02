@@ -8,23 +8,27 @@
     --fg-colour: var(--black-700);
 
     --scrollbar-thumb-colour: #CDCDCD;
-
-    --dark-bg-colour: #1c1e26;
-    --dark-fg-colour: #dffcfd;
 }
 
-@media (prefers-colour-scheme: dark) {
-  :root {
-    --bg-colour: var(--black-700);
-    --fg-colour: var(--silver-100);
-  }
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-colour: var(--silver-100);
+        --fg-colour: var(--black-700);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-colour: var(--black-700);
+        --fg-colour: var(--silver-100);
+    }
 }
 
 // Fonts
 :root {
-  --default-font: Open Sans, sans-serif;
-  --mono-font: Roboto Mono, sans-serif;
-  --title-font: Raleway, sans-serif;
+    --default-font: Open Sans, sans-serif;
+    --mono-font: Roboto Mono, sans-serif;
+    --title-font: Raleway, sans-serif;
 }
 
 // Breakpoints
