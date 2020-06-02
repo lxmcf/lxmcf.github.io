@@ -3,6 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="card animated fadeIn delay-1">
+<div class="card">
 Something will come eventually!
 <div>
