@@ -6,6 +6,6 @@ site
 .sass-cache
 node_modules
 package.json
-./jekyll-cache
+./jekyll-cache/
 
 *~
