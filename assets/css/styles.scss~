@@ -2,16 +2,10 @@
 ---
 
 @import "reset";
-@import "colours";
 @import "variables";
 
 html {
     font-family: var(--default-font);
-}
-
-body {
-    background-color: var(--bg-color);
-    color: var(--fg-color);
 
     h1, h2, h3 {
         font-family: var(--title-font);
@@ -41,3 +35,4 @@ a {
 }
 
 @import "header";
+@import "colours"
