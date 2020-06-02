@@ -1,0 +1,26 @@
+header {
+    display: flex;
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 25px;
+
+        ul {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                padding-right: 16px;
+
+                a {
+                    color: var(--link-colour);
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}

@@ -2,8 +2,7 @@
 layout: default
 title: Home
 ---
-# So this is what the web is like, aye!
 
-Please pretend this site does not exist!
-
-Just trying to learn something new!
+<div class="card animated fadeIn delay-1">
+Something will come eventually!
+<div>

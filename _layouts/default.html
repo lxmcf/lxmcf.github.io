@@ -4,18 +4,16 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
 
-    <script>
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-            var theme = document.querySelector("meta[name=theme-color]");
-            if (event.matches) {
-                theme.setAttribute("content", "#1A1A1A");
-                console.log ("Dark mode!");
-            } else {
-                theme.setAttribute("content", "#FAFAFA");
-                console.log ("Light mode!");
-            }
-        });
-    </script>
+    <!--<script>-->
+    <!--    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {-->
+    <!--        var theme = document.querySelector("meta[name=theme-color]");-->
+    <!--        if (event.matches) {-->
+    <!--            theme.setAttribute("content", "#1A1A1A");-->
+    <!--        } else {-->
+    <!--            theme.setAttribute("content", "#FAFAFA");-->
+    <!--        }-->
+    <!--    });-->
+    <!--</script>-->
 
     {% include meta.html %}
 
@@ -23,7 +21,14 @@
     {% seo %}
   </head>
   <body>
-    {% include header.html %}
-    {{ content }}
+    {% include header-home.html %}
+
+    <div class="page-content">
+    {% include navigation.html %}
+
+        <div class="card-list">
+        {{ content }}
+        </div>
+    </div>
   </body>
 </html>

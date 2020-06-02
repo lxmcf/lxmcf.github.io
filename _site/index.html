@@ -4,24 +4,22 @@
     <title>Home</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
 
-    <script>
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-            var theme = document.querySelector("meta[name=theme-color]");
-            if (event.matches) {
-                theme.setAttribute("content", "#1A1A1A");
-                console.log ("Dark mode!");
-            } else {
-                theme.setAttribute("content", "#FAFAFA");
-                console.log ("Light mode!");
-            }
-        });
-    </script>
+    <!--<script>-->
+    <!--    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {-->
+    <!--        var theme = document.querySelector("meta[name=theme-color]");-->
+    <!--        if (event.matches) {-->
+    <!--            theme.setAttribute("content", "#1A1A1A");-->
+    <!--        } else {-->
+    <!--            theme.setAttribute("content", "#FAFAFA");-->
+    <!--        }-->
+    <!--    });-->
+    <!--</script>-->
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
-    <meta name="theme-color" content="#FAFAFA">
+    <meta name="theme-color" content="#452981">
 
 
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
@@ -30,31 +28,42 @@
 <meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="So this is what the web is like, aye!" />
-<meta property="og:description" content="So this is what the web is like, aye!" />
+<meta name="description" content="Something will come eventually!" />
+<meta property="og:description" content="Something will come eventually!" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"Home","url":"http://localhost:4000/","description":"So this is what the web is like, aye!","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Home","url":"http://localhost:4000/","description":"Something will come eventually!","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
   <body>
+    <section class="home-header">
+    <h1>Alex Macafee</h1>
+</section>
+
+
+    <div class="page-content">
     <header>
     <div class="header-content">
         <ul>
             <li><a href="/">Home</a></li>
+            <li>|</li>
             <li><a href="/about">About</a></li>
+            <li>|</li>
             <li><a href="/blog/">Blog</a></li>
         </url>
     </div>
 </header>
 
-    <h1 id="so-this-is-what-the-web-is-like-aye">So this is what the web is like, aye!</h1>
 
-<p>Please pretend this site does not exist!</p>
+        <div class="card-list">
+        <div class="card animated fadeIn delay-1">
+Something will come eventually!
+<div>
+</div></div>
 
-<p>Just trying to learn something new!</p>
-
+        </div>
+    </div>
   </body>
 </html>

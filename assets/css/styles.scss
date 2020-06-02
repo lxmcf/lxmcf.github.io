@@ -16,19 +16,26 @@ body {
     width: 100%;
 
     h1, h2, h3 {
+        margin: 16px auto;
         font-family: var(--title-font);
-        margin: 16px;
+        font-weight: 300;
+
+        text-align: center;
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
         font-size: 1rem;
     }
 }
@@ -39,8 +46,22 @@ a {
     }
 }
 
+div {
+    display: block;
+}
+
+.page-content {
+    max-width: 1080px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 .debug {
     background-color: #F00;
 }
 
+@import "animation";
+@import "navigation";
 @import "header";
+@import "cards";

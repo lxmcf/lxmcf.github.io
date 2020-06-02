@@ -4,23 +4,36 @@
 
 // Colours
 :root {
-    --bg-colour: var(--silver-100);
+    --bg-colour: var(--silver-100);;
     --fg-colour: var(--black-700);
 
-    --scrollbar-thumb-colour: #CDCDCD;
+    --link-colour: var(--grape-900);
+
+    --card-bg-colour: #FFFFFF;
+    --card-fg-colour: var(--black-700);
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-colour: var(--silver-100);
+        --bg-colour: var(--silver-100);;
         --fg-colour: var(--black-700);
+
+        --link-colour: var(--grape-900);
+
+        --card-bg-colour: #FFFFFF;
+        --card-fg-colour: var(--black-700);
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-colour: var(--black-700);
+        --bg-colour: var(--black-900);
         --fg-colour: var(--silver-100);
+
+        --link-colour: var(--grape-500);
+
+        --card-bg-colour: var(--black-700);
+        --card-fg-colour: var(--silver-100);
     }
 }
 
@@ -33,17 +46,21 @@
 
 // Breakpoints
 @mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
+    @media (max-width: 599px) { @content; }
 }
+
 @mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
+    @media (min-width: 600px) { @content; }
 }
+
 @mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
+    @media (min-width: 900px) { @content; }
 }
+
 @mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
+    @media (min-width: 1200px) { @content; }
 }
+
 @mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
+    @media (min-width: 1800px) { @content; }
 }
