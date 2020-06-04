@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
-header-title: Alex Macafee
+title: Projects
+header-title: About Me
 ---
 # Work in progress!

@@ -1,13 +1,14 @@
-section.home-header {
+section.page-header {
     min-height: 192px;
+    line-height: 192px;
 
     background-color: var(--grape-900);
     color: var(--card-fg-colour);
 
-    line-height: 192px;
+    text-align: center;
 
     h1 {
-        margin: 0px auto;
+        margin: 0px;
         color: var(--silver-100);
     }
 }

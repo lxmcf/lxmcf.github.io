@@ -1,7 +1,7 @@
-header {
+nav {
     display: flex;
 
-    .header-content {
+    .page-navigation {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -14,7 +14,7 @@ header {
             justify-content: space-between;
 
             li {
-                padding-right: 16px;
+                padding: 0px 8px;
 
                 a {
                     color: var(--link-colour);

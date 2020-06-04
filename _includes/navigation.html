@@ -1,11 +1,17 @@
-<header>
-    <div class="header-content animated fadeInUp">
+<nav class="animated delay-1 fadeInUp">
+    <div class="page-navigation">
         <ul>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li>|</li>
-            <li><a href="{{ site.baseurl }}/about">About</a></li>
-            <li>|</li>
-            <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-        </url>
+            {% for item in site.data.navigation %}
+                <li>
+                    {% if item.type == "link"%}
+                        <a href="{{ item.link }}">{{ item.name }}</a>
+                    {% endif %}
+
+                    {% if item.type == "seperator"%}
+                        |
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
-</header>
+</nav>

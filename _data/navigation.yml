@@ -1,0 +1,21 @@
+- type: link
+  name: Home
+  link: /
+
+- type: seperator
+
+- type: link
+  name: About
+  link: /about/
+
+- type: seperator
+
+- type: link
+  name: Projects
+  link: /projects/
+
+- type: seperator
+
+- type: link
+  name: Blog
+  link: /blog/

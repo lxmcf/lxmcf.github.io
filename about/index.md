@@ -1,5 +1,6 @@
 ---
 layout: default
 title: About
+header-title: About Me
 ---
-## About me (WIP)
+# Work in progress!
