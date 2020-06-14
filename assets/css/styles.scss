@@ -34,6 +34,24 @@ body {
     h4 {
         font-size: 1rem;
     }
+
+    @include for-phone-only {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+    }
 }
 
 a {
@@ -46,6 +64,13 @@ div {
     display: block;
 }
 
+@include for-tiny-phone-only {
+    .hide-tiny-mobile {
+        display: none;
+    }
+}
+
+@import "content";
 @import "animate";
 @import "header";
 @import "navigation";

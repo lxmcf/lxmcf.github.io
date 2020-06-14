@@ -1,21 +1,21 @@
 - type: link
-  name: Home
+  data: Home
   link: /
 
 - type: seperator
 
 - type: link
-  name: About
+  data: About
   link: /about/
 
 - type: seperator
 
 - type: link
-  name: Projects
+  data: Projects
   link: /projects/
 
 - type: seperator
 
 - type: link
-  name: Blog
+  data: Blog
   link: /blog/

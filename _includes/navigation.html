@@ -2,13 +2,13 @@
     <div class="page-navigation">
         <ul>
             {% for item in site.data.navigation %}
-                <li>
+                <li {% if item.type == "seperator"%}class="hide-tiny-mobile"{% endif %}>
                     {% if item.type == "link"%}
-                        <a href="{{ item.link }}">{{ item.name }}</a>
+                        <a href="{{ item.link }} " {% if page.url == item.link %}class="current-page"{% endif %}>{{ item.data }}</a>
                     {% endif %}
 
                     {% if item.type == "seperator"%}
-                        |
+                        &#65372;
                     {% endif %}
                 </li>
             {% endfor %}

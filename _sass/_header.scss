@@ -2,13 +2,23 @@ section.page-header {
     min-height: 192px;
     line-height: 192px;
 
+    width: 100%;
+
     background-color: var(--grape-900);
     color: var(--card-fg-colour);
 
     text-align: center;
 
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+
     h1 {
         margin: 0px;
         color: var(--silver-100);
+    }
+
+    @include for-phone-only {
+        min-height: 128px;
+        line-height: 128px;
     }
 }

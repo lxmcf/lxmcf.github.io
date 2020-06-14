@@ -1,0 +1,54 @@
+---
+---
+// @import "variables";
+
+.debug.red {
+    background-color: #F00;
+}
+
+.debug.green {
+    background-color: #0F0;
+}
+
+.debug.blue {
+    background-color: #00F;
+}
+
+.content-block {
+    min-height: 128px;
+    border-radius: 32px;
+
+    margin-bottom: 24px;
+}
+
+.home-intro {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .avatar-container {
+        display: flex;
+        padding: 24px;
+        max-width: 288px;
+
+        img.avatar {
+            border-radius: 50%;
+            box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+
+            max-width: 240px;
+            max-height: 240px;
+        }
+    }
+
+    .social-links {
+        display: flex;
+        min-width: 240px;
+        margin: 24px;
+        width: auto;
+        flex-direction: column;
+    }
+}
+
+

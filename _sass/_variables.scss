@@ -4,7 +4,7 @@
 
 // Colours
 :root {
-    --bg-colour: var(--silver-100);;
+    --bg-colour: var(--silver-100);
     --fg-colour: var(--black-700);
 
     --link-colour: var(--grape-900);
@@ -36,6 +36,10 @@
 }
 
 // Breakpoints
+@mixin for-tiny-phone-only {
+    @media (max-width: 359px) { @content; }
+}
+
 @mixin for-phone-only {
     @media (max-width: 599px) { @content; }
 }

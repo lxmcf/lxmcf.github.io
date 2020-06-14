@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Projects
-header-title: About Me
+header-title: Projects
 ---
 # Work in progress!
